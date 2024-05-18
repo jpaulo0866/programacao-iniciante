@@ -4,5 +4,5 @@ Nesse repositório, existem alguns projetos que podem servir como base para estu
 
 ## Navegação
 
-- [Frontend](/frontend/README.md)
+- [Projeto Básico de Calculador](calculadora-frontend/README.md)
   

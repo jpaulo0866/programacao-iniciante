@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.container-input {
+    padding: 5px;
+}
+
+.botao-matematica {
+    background-color: darkgrey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+    border-radius: 10%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.botao-matematica:hover {
+    background-color: cadetblue;
+}
+
+.container-resultados {
+    overflow-y: scroll;
+}

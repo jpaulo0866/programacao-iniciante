@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora dos Guri</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Calculadora dos Guri</h1>
+        </div>
+    
+        <div class="container-input">
+            <label for="entrada1">Digite um número</label>
+            <input id="entrada1" type="number">    
+        </div>
+        
+        <div class="container-input">
+            <label for="entrada2">Digite outro número</label>
+            <input id="entrada2" type="number">
+        </div>
+        
+        <div style="margin-top: 10px; margin-bottom: 2px;">
+            <button onclick="javascript:limparCampos()">LIMPAR CAMPOS</button>
+            <button onclick="javascript:usarResultado()">USAR RESULTADO</button>
+            <button onclick="javascript:limparResultados()">LIMPAR RESULTADOS</button>
+        </div>
+
+        <div>
+            <h3>Operações Matemáticas</h3>
+            <p>Escolha uma das operações abaixo:</p>
+    
+            <ul>
+                <li>
+                    <button class="botao-matematica" onclick="javascript:operacaoMatematica('SOMA')">SOMA</button>
+                </li>
+                <li>
+                    <button class="botao-matematica" onclick="javascript:operacaoMatematica('SUBTRACAO')">SUBTRACAO</button>
+                </li>
+                <li>
+                    <button class="botao-matematica" onclick="javascript:operacaoMatematica('MULTIPLICACAO')">MULTIPLICACAO</button>
+                </li>
+                <li>
+                    <button class="botao-matematica" onclick="javascript:operacaoMatematica('DIVISAO')">DIVISAO</button>
+                </li>
+                <li>
+                    <button class="botao-matematica" onclick="javascript:operacaoMatematica('MOD')">MODULO</button>
+                </li>
+                <li>
+                    <button class="botao-matematica" onclick="javascript:operacaoMatematica('PORCENTAGEM')">PORCENTAGEM</button>
+                </li>
+            </ul>
+        </div>
+    
+        <div>
+            <label for="saida1">Resultado:</label>
+            <input id="saida1" type="number" readonly>
+        </div>
+
+        <div id="resultados" class="container-resultados">
+            <!-- AQUI VAI VIR UNS HTML -->
+        </div>
+    </div>
+    
+</body>
+</html>
