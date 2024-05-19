@@ -4,5 +4,7 @@ Nesse repositório, existem alguns projetos que podem servir como base para estu
 
 ## Navegação
 
-- [Projeto Básico de Calculador](calculadora-frontend/README.md)
+- [Projeto Básico de Calculadora](calculadora-frontend/README.md)
+- [Projeto de abas e paineis HTML](sistema-abas-e-paineis/README.md)
+- [Projeto de pesquisa de Filmes e Séries](filmes-series/README.md)
   
